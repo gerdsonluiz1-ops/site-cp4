@@ -2,8 +2,8 @@
 
 Site pessoal desenvolvido para a disciplina de Desenvolvimento Web (Universidade Braz Cubas).
 
-- **Site publicado:** https://gerdsonluiz1-ops.github.io/site-cp3/
-- **Repositório:** https://github.com/gerdsonluiz1-ops/site-cp3
+- **Site publicado:** https://gerdsonluiz1-ops.github.io/site-cp4/
+- **Repositório:** https://github.com/gerdsonluiz1-ops/site-cp4
 - **Tag da entrega:** `cp4-entrega` (a `cp3-entrega` marca a entrega anterior)
 
 ## Páginas

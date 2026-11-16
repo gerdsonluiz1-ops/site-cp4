@@ -48,10 +48,10 @@ if (form) {
         }
 
         if (erros.length > 0) {
-            msg.className = 'msg-erro';
+            msg.className = 'alert alert-danger';
             msg.innerHTML = erros.join('<br>');
         } else {
-            msg.className = 'msg-ok';
+            msg.className = 'alert alert-success';
             msg.textContent = 'Obrigado, ' + nome + '! Sua mensagem foi enviada com sucesso.';
             form.reset();
         }

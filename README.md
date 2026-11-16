@@ -4,7 +4,7 @@ Site pessoal desenvolvido para a disciplina de Desenvolvimento Web (Universidade
 
 - **Site publicado:** https://gerdsonluiz1-ops.github.io/site-cp3/
 - **Repositório:** https://github.com/gerdsonluiz1-ops/site-cp3
-- **Tag da entrega:** `cp3-entrega`
+- **Tag da entrega:** `cp4-entrega` (a `cp3-entrega` marca a entrega anterior)
 
 ## Páginas
 
@@ -17,7 +17,7 @@ Site pessoal desenvolvido para a disciplina de Desenvolvimento Web (Universidade
 ## Organização
 
 ```
-css/estilos.css   estilos (Flexbox, Grid, media queries e tema escuro)
+css/estilos.css   estilos (Flexbox, Grid, media queries, tema escuro e acessibilidade)
 js/scripts.js     tema claro/escuro, validação do formulário e canvas
 ```
 
@@ -51,3 +51,21 @@ O resultado aparece na própria página, em uma mensagem vermelha (erros) ou ver
 ## Versionamento
 
 Histórico com commits descritivos, `.gitignore` configurado e a tag `cp3-entrega` marcando o estado da entrega.
+
+## Bootstrap (CP4)
+
+Foi usado apenas o CSS do Bootstrap 5.3.3, via CDN, carregado antes do `estilos.css` para que os estilos próprios tenham prioridade. Classes usadas:
+
+- `btn btn-primary` - botão de envio do formulário;
+- `form-control` - campos de texto, e-mail, telefone, data, senha e mensagem;
+- `alert alert-danger` / `alert alert-success` - mensagens de erro e sucesso da validação;
+- `img-fluid rounded` - imagens responsivas com cantos arredondados.
+
+## Acessibilidade (CP4)
+
+- link "Pular para o conteúdo" no início de cada página (navegação por teclado);
+- foco visível (`:focus-visible`) em links, botões e campos;
+- menu com `aria-label` e `aria-current="page"` na página atual;
+- texto alternativo descritivo nas imagens e `aria-label` no SVG e no canvas;
+- cores com bom contraste nos dois temas, incluindo links e legendas no tema escuro;
+- formulário com `label` ligado a cada campo e mensagens com `role="alert"`.
